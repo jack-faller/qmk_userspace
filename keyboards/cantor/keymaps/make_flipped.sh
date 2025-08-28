@@ -8,5 +8,5 @@ cd $(dirname "$LOCATION")
 # that has all the keys mirrored along the vertical axis.
 rm -rf "$LOCATION"_flipped
 cp -r "$LOCATION" "$LOCATION"_flipped
-rm "$LOCATION"_flipped/"$KEYMAP".json
-"$FLIPPER" "$LOCATION"/"$KEYMAP".json > "$LOCATION"_flipped/"$KEYMAP"_flipped.json
+rm "$LOCATION"_flipped/keymap.json
+"$FLIPPER" "$LOCATION"/keymap.json > "$LOCATION"_flipped/keymap.json

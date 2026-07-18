@@ -236,8 +236,8 @@
         "bootmagic": {
             "enabled": true,
             "matrix": [
-                10,
-                0
+                0,
+                1
             ]
         },
         "split": {

@@ -14,4 +14,4 @@ case "$3" in
         FLIPPED=""
         ;;
 esac
-qmk flash -j 4 -kb "$KEYBOARD" -km "$KEYMAP$FLIPPED" --bootloader "dfu-util-split-$SIDE"
+exec qmk flash -j 4 -kb "$KEYBOARD" -km "$KEYMAP$FLIPPED" --bootloader "dfu-util-split-$SIDE"

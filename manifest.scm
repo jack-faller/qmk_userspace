@@ -4,6 +4,7 @@
              (gnu packages firmware)
              (gnu packages flashing-tools)
              (gnu packages textutils))
+;; Must be either ARM or AVR, not both.
 (packages->manifest (list (make-arm-none-eabi-nano-toolchain-12.3.rel1)
-                          (make-avr-toolchain)
+                          ;; (make-avr-toolchain)
                           dfu-util qmk dos2unix))

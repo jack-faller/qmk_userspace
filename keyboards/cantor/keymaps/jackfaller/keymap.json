@@ -247,6 +247,9 @@
         },
         "build": {
             "lto": true
+        },
+        "tapping": {
+            "permissive_hold": true
         }
     }
 }
